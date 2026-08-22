@@ -28,10 +28,10 @@ jobs:
             template-platform.yaml
 
       - name: Print selected variables
+        if: github.event_name == 'workflow_dispatch'
         run: |
           echo "APP_NAME=${APP_NAME}"
           echo "APP_ENV=${APP_ENV}"
-          echo "RANDOM_TOKEN_A4=${RANDOM_TOKEN_A4}"
           echo "PURCHASE_CURRENCY=${PURCHASE_CURRENCY}"
           echo "PURCHASE_ORDER_PREFIX=${PURCHASE_ORDER_PREFIX}"
           echo "PLATFORM_NAME=${PLATFORM_NAME}"
