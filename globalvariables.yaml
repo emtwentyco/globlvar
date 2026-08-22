@@ -1,0 +1,81 @@
+variables:
+  - key: APP_NAME
+    value: NimbusPortal
+  - key: APP_ENV
+    value: sandbox
+  - key: APP_REGION
+    value: eu-west-1
+  - key: APP_THEME
+    value: midnight-indigo
+  - key: API_BASE_URL
+    value: https://api.nimbus.example
+  - key: WEB_BASE_URL
+    value: https://portal.nimbus.example
+  - key: FEATURE_ALPHA
+    value: "true"
+  - key: FEATURE_BETA
+    value: "false"
+  - key: CACHE_TTL_SECONDS
+    value: "900"
+  - key: JOB_RETRY_COUNT
+    value: "4"
+  - key: LOG_LEVEL
+    value: info
+  - key: RATE_LIMIT_PER_MIN
+    value: "1200"
+  - key: SESSION_TIMEOUT_MIN
+    value: "45"
+  - key: SUPPORT_EMAIL
+    value: support@nimbus.example
+  - key: PRIMARY_COLOR
+    value: "#2E6DFF"
+  - key: SECONDARY_COLOR
+    value: "#14C8A8"
+  - key: ALERT_COLOR
+    value: "#FF4D4F"
+  - key: RANDOM_TOKEN_A1
+    value: a8f3m2q9
+  - key: RANDOM_TOKEN_A2
+    value: z4n7k1x6
+  - key: RANDOM_TOKEN_A3
+    value: p0r8t5v2
+  - key: RANDOM_TOKEN_A4
+    value: w3b6j9d1
+  - key: RANDOM_TOKEN_A5
+    value: g5s2l8c4
+  - key: RANDOM_TOKEN_A6
+    value: y7u1h6n3
+  - key: RANDOM_TOKEN_A7
+    value: m2e9q4k7
+  - key: RANDOM_TOKEN_A8
+    value: f6x3p0r5
+  - key: RANDOM_TOKEN_A9
+    value: t9c4v1z8
+  - key: RANDOM_TOKEN_A10
+    value: n1d7w2b6
+  - key: RANDOM_TOKEN_B1
+    value: q8m5a2y4
+  - key: RANDOM_TOKEN_B2
+    value: r3k9f6u1
+  - key: RANDOM_TOKEN_B3
+    value: j7p0t4n5
+  - key: RANDOM_TOKEN_B4
+    value: h2v8d3s9
+  - key: RANDOM_TOKEN_B5
+    value: b6z1g7m2
+  - key: RANDOM_TOKEN_B6
+    value: c4l9x5r0
+  - key: RANDOM_TOKEN_B7
+    value: u1w6e8k3
+  - key: RANDOM_TOKEN_B8
+    value: s5n2j4p7
+  - key: RANDOM_TOKEN_B9
+    value: x9q3h1t6
+  - key: RANDOM_TOKEN_B10
+    value: v2f7c8l4
+  - key: EXPERIMENT_ID_01
+    value: exp-nebula-381
+  - key: EXPERIMENT_ID_02
+    value: exp-orion-902
+  - key: EXPERIMENT_ID_03
+    value: exp-hydra-447

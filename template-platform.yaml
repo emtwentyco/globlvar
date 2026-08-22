@@ -1,0 +1,21 @@
+variables:
+  - key: PLATFORM_NAME
+    value: globlvar-core
+  - key: PLATFORM_NAMESPACE
+    value: platform-services
+  - key: PLATFORM_REPLICA_COUNT
+    value: "3"
+  - key: PLATFORM_HEALTHCHECK_PATH
+    value: /healthz
+  - key: PLATFORM_METRICS_PATH
+    value: /metrics
+  - key: PLATFORM_LOG_FORMAT
+    value: json
+  - key: PLATFORM_MESSAGE_BROKER
+    value: kafka
+  - key: PLATFORM_DEFAULT_LOCALE
+    value: en-GB
+  - key: PLATFORM_TIMEZONE
+    value: UTC
+  - key: PLATFORM_RELEASE_CHANNEL
+    value: stable
