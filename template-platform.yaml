@@ -1,6 +1,6 @@
 variables:
   - key: PLATFORM_NAME
-    value: globlvar-platform-$APP_NAME
+    value: globlvar-platform-'$APP_NAME'
   - key: PLATFORM_NAMESPACE
     value: platform-services
   - key: PLATFORM_REPLICA_COUNT
