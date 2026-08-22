@@ -27,11 +27,5 @@ jobs:
             template-purchase.yaml
             template-platform.yaml
       
-      - name: Print selected variables
-        if: github.event_name == 'workflow_dispatch'
-        run: |
-          echo "${APP_NAME}"
-          echo "${APP_ENV}"
-          echo "${PURCHASE_CURRENCY}"
-          echo "${PURCHASE_ORDER_PREFIX}"
-          echo "${PLATFORM_NAME}"
+      - name: Print variables
+        run: env | sort
