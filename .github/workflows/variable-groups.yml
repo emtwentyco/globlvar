@@ -27,6 +27,15 @@ jobs:
             template-purchase.yaml
             template-platform.yaml
 
+      - name: Mask selected variables
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          echo "::add-mask::${APP_NAME}"
+          echo "::add-mask::${APP_ENV}"
+          echo "::add-mask::${PURCHASE_CURRENCY}"
+          echo "::add-mask::${PURCHASE_ORDER_PREFIX}"
+          echo "::add-mask::${PLATFORM_NAME}"
+
       - name: Print selected variables
         if: github.event_name == 'workflow_dispatch'
         run: |

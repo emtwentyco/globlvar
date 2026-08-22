@@ -33,45 +33,45 @@ variables:
     value: "#14C8A8"
   - key: ALERT_COLOR
     value: "#FF4D4F"
-  - key: RANDOM_TOKEN_A1
+  - key: SAMPLE_RANDOM_VALUE_01
     value: a8f3m2q9
-  - key: RANDOM_TOKEN_A2
+  - key: SAMPLE_RANDOM_VALUE_02
     value: z4n7k1x6
-  - key: RANDOM_TOKEN_A3
+  - key: SAMPLE_RANDOM_VALUE_03
     value: p0r8t5v2
-  - key: RANDOM_TOKEN_A4
+  - key: SAMPLE_RANDOM_VALUE_04
     value: w3b6j9d1
-  - key: RANDOM_TOKEN_A5
+  - key: SAMPLE_RANDOM_VALUE_05
     value: g5s2l8c4
-  - key: RANDOM_TOKEN_A6
+  - key: SAMPLE_RANDOM_VALUE_06
     value: y7u1h6n3
-  - key: RANDOM_TOKEN_A7
+  - key: SAMPLE_RANDOM_VALUE_07
     value: m2e9q4k7
-  - key: RANDOM_TOKEN_A8
+  - key: SAMPLE_RANDOM_VALUE_08
     value: f6x3p0r5
-  - key: RANDOM_TOKEN_A9
+  - key: SAMPLE_RANDOM_VALUE_09
     value: t9c4v1z8
-  - key: RANDOM_TOKEN_A10
+  - key: SAMPLE_RANDOM_VALUE_10
     value: n1d7w2b6
-  - key: RANDOM_TOKEN_B1
+  - key: SAMPLE_RANDOM_VALUE_11
     value: q8m5a2y4
-  - key: RANDOM_TOKEN_B2
+  - key: SAMPLE_RANDOM_VALUE_12
     value: r3k9f6u1
-  - key: RANDOM_TOKEN_B3
+  - key: SAMPLE_RANDOM_VALUE_13
     value: j7p0t4n5
-  - key: RANDOM_TOKEN_B4
+  - key: SAMPLE_RANDOM_VALUE_14
     value: h2v8d3s9
-  - key: RANDOM_TOKEN_B5
+  - key: SAMPLE_RANDOM_VALUE_15
     value: b6z1g7m2
-  - key: RANDOM_TOKEN_B6
+  - key: SAMPLE_RANDOM_VALUE_16
     value: c4l9x5r0
-  - key: RANDOM_TOKEN_B7
+  - key: SAMPLE_RANDOM_VALUE_17
     value: u1w6e8k3
-  - key: RANDOM_TOKEN_B8
+  - key: SAMPLE_RANDOM_VALUE_18
     value: s5n2j4p7
-  - key: RANDOM_TOKEN_B9
+  - key: SAMPLE_RANDOM_VALUE_19
     value: x9q3h1t6
-  - key: RANDOM_TOKEN_B10
+  - key: SAMPLE_RANDOM_VALUE_20
     value: v2f7c8l4
   - key: EXPERIMENT_ID_01
     value: exp-nebula-381
