@@ -29,3 +29,6 @@ jobs:
       
       - name: Print variables
         run: env | sort
+
+      - name: Use PLATFORM NAME
+        run: echo "Using PLATFORM NAME: $PLATFORM_NAME"
