@@ -18,7 +18,7 @@ jobs:
       contents: read
     steps:
       - name: Inject variable groups
-        uses: indluni/actions-variable-groups@main
+        uses: lindluni/actions-variable-groups@main
         with:
           org: ${{ github.repository_owner }}
           repo: ${{ github.event.repository.name }}
