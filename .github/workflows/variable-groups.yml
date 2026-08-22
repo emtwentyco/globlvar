@@ -1,0 +1,46 @@
+name: Global Variable Groups
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - globalvariables.yaml
+      - template-purchase.yaml
+      - template-platform.yaml
+      - .github/workflows/variable-groups.yml
+
+jobs:
+  inject-and-print:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Inject variable groups
+        uses: indluni/actions-variable-groups@main
+        with:
+          org: ${{ github.repository_owner }}
+          repo: ${{ github.event.repository.name }}
+          groups: |
+            globalvariables.yaml
+            template-purchase.yaml
+            template-platform.yaml
+
+      - name: Mask selected variables
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          echo "::add-mask::${APP_NAME}"
+          echo "::add-mask::${APP_ENV}"
+          echo "::add-mask::${PURCHASE_CURRENCY}"
+          echo "::add-mask::${PURCHASE_ORDER_PREFIX}"
+          echo "::add-mask::${PLATFORM_NAME}"
+
+      - name: Print selected variables
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          echo "APP_NAME=${APP_NAME}"
+          echo "APP_ENV=${APP_ENV}"
+          echo "PURCHASE_CURRENCY=${PURCHASE_CURRENCY}"
+          echo "PURCHASE_ORDER_PREFIX=${PURCHASE_ORDER_PREFIX}"
+          echo "PLATFORM_NAME=${PLATFORM_NAME}"

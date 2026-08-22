@@ -1,0 +1,21 @@
+variables:
+  - key: PURCHASE_CURRENCY
+    value: EUR
+  - key: PURCHASE_TAX_RATE
+    value: "0.20"
+  - key: PURCHASE_MIN_AMOUNT
+    value: "5"
+  - key: PURCHASE_MAX_AMOUNT
+    value: "5000"
+  - key: PURCHASE_ORDER_PREFIX
+    value: PO-NMB
+  - key: PURCHASE_TIMEOUT_SECONDS
+    value: "180"
+  - key: PURCHASE_QUEUE_NAME
+    value: purchase-events
+  - key: PURCHASE_FEATURE_COUPONS
+    value: "true"
+  - key: PURCHASE_FEATURE_INSTALLMENTS
+    value: "true"
+  - key: PURCHASE_LEDGER_TOPIC
+    value: purchase.ledger.v1
