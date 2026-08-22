@@ -14,6 +14,9 @@ on:
 jobs:
   inject-and-print:
     runs-on: ubuntu-latest
+    env:
+      PLATFORM_NAME: emtwenty
+      APP_NAME: scumlapp
     permissions:
       contents: read
     steps:
