@@ -31,4 +31,4 @@ jobs:
         run: env | sort
 
       - name: Use a variable
-        run: echo "$PLATFORM_NAME"
+        run: echo "$PLATFORM_NAME"-"$APP_NAME"
