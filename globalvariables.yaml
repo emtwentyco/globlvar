@@ -2,7 +2,7 @@ variables:
   - key: APP_NAME
     value: NimbusPortal
   - key: APP_ENV
-    value: sandbox
+    value: sandbox-'$APP_THEME'
   - key: APP_REGION
     value: eu-west-1
   - key: APP_THEME
