@@ -1,6 +1,6 @@
 variables:
   - key: APP_NAME
-    value: NimbusPortal-'$APP_THEME'
+    value: NimbusPortal-$(APP_THEME)
   - key: APP_ENV
     value: sandbox
   - key: APP_REGION
